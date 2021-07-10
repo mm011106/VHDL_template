@@ -19,4 +19,4 @@
 - MAX V 5M160T (5M80Tでもインプリメント可能)
 
 ## REVISION
-**REL01 {date}  :リリース版　　{comment}　**
+**REL01 {date}  :リリース版　　{comment}**
