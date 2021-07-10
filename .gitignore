@@ -1,15 +1,13 @@
 *.*
-!/*.gitignore
+!/.gitignore
 
 # ignore Quartus generated folders
-/db/
-/db/*.txt
-/incremental_db/
-project/incremental_db/README
-/simulation/
-/timing/
-/testbench/
-/*_sim/
+db/*
+incremental_db/
+simulation/*
+timing/
+testbench/*
+*_sim/
 
 # project files
 !*.qpf
@@ -20,9 +18,13 @@ project/incremental_db/README
 !*.vhdl
 !*.v
 !*.sv
+!*.vht
 
 # memory init file
-!**/*.mif
+!*.mif
+
+# .pof files
+!*.pof
 
 # IP core files
 !*.qip
@@ -43,14 +45,20 @@ project/incremental_db/README
 !*.tcl
 
 # simulator settings
-!**/*.do
+!*.do
 
 # text file located on the 'project' directory
 !/project/*.txt
+!/project/*.md
+!/project/*.csv
 
-# diagrams
-!*.svg
-!*.png
-!*.pdf
+# text file located on the rep's root
+!/*.txt
+!/*.md
+!/*.csv
 
+# diagrams on the rep's root
+!/*.svg
+!/*.png
+!/*.pdf
 
